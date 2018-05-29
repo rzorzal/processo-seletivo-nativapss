@@ -1,0 +1,25 @@
+{
+    "aluno": [
+        {
+            "identificacao": "1",
+            "nome": "Ricardo",
+            "sobrenome": "Zorzal",
+            "genero": "Masculino"
+        }
+    ],
+    "professor": [
+        {
+            "identificacao": "",
+            "nome": "",
+            "sobrenome": "",
+            "genero": ""
+        }
+    ],
+    "curso": [
+        {
+            "codigo": "",
+            "nome": "",
+            "observacoes": ""
+        }
+    ]
+}

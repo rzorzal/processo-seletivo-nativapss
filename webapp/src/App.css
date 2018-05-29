@@ -1,0 +1,12 @@
+.content{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    min-height: calc(100vh - 100px);
+    background-color: #ffffff;
+}
+
+.header{
+    color: white;
+}

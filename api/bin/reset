@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+let models = require(`${process.cwd()}/models`);
+
+async function reset(){
+    try{
+        await models.sequelize.drop({force: true, cascade: true});
+    }catch(err){
+        console.error(err);
+    }
+
+}
+
+reset().then(function(){
+    console.log("ALL TABLES ARE DELETEDS");
+    process.exit();
+});

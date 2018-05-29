@@ -1,0 +1,15 @@
+{
+    "development": {
+        "database": "nativapps",
+        "username": "postgres",
+        "password": "q55324",
+        "host":     "localhost",
+        "dialect":  "postgres",
+        "dummy":    "postgres://postgres:q55324@localhost/nativapps_dummy"
+    },
+    "production": {
+        "connection_env": "DATABASE_URL",
+        "dialect": "postgres",
+        "dummy_env":   "HEROKU_POSTGRESQL_BLACK_URL"
+    }
+}
