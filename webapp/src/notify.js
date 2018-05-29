@@ -10,7 +10,7 @@ export default class Notify{
 
     static success(msg){
         let container = document.createElement('div');
-        let element = (<Alert  color="success" isOpen={true} toggle={  function(e){e.target.parentNode.remove() } }>
+        let element = (<Alert  color="success" isOpen={true} toggle={  function(e){e.target.parentNode.parentNode.remove() } }>
             {msg}
         </Alert>);
         root.appendChild(container);
@@ -19,7 +19,7 @@ export default class Notify{
 
     static error(msg){
         let container = document.createElement('div');
-        let element = (<Alert  color="danger" isOpen={true} toggle={  function(e){e.target.parentNode.remove() } }>
+        let element = (<Alert  color="danger" isOpen={true} toggle={  function(e){e.target.parentNode.parentNode.remove() } }>
             {msg}
         </Alert>);
         root.appendChild(container);

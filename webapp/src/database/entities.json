@@ -9,17 +9,17 @@
     ],
     "professor": [
         {
-            "identificacao": "",
-            "nome": "",
-            "sobrenome": "",
-            "genero": ""
+            "identificacao": "1",
+            "nome": "Caroline",
+            "sobrenome": "Soares",
+            "genero": "Feminino"
         }
     ],
     "curso": [
         {
-            "codigo": "",
-            "nome": "",
-            "observacoes": ""
+            "codigo": "1",
+            "nome": "Matemática",
+            "observacoes": "Aulas particulares sobre Matemática"
         }
     ]
 }
