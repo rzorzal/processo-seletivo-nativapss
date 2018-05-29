@@ -2,10 +2,10 @@
     "development": {
         "database": "nativapps",
         "username": "postgres",
-        "password": "q55324",
+        "password": "SENHA PADRÃO",
         "host":     "localhost",
         "dialect":  "postgres",
-        "dummy":    "postgres://postgres:q55324@localhost/nativapps_dummy"
+        "dummy":    "postgres://postgres:SENHA_PADRÃO@localhost/nativapps_dummy"
     },
     "production": {
         "connection_env": "DATABASE_URL",
